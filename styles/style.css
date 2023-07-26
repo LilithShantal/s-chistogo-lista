@@ -8,7 +8,7 @@ body {
 	background-color: #1e1e1e;
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
-	line-height: 21.5px;
+	line-height: 21px;
 	height: 4160px;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .header {
-	padding: 20px 20px;
+	padding: 22px 20px;
 	display: flex;
 	justify-content: space-between;
 }
