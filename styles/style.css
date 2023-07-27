@@ -8,7 +8,7 @@ body {
 	background-color: #1e1e1e;
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
-	line-height: 21px;
+	line-height: 22x;
 	height: 4160px;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .header {
-	padding: 22px 22px;
+	padding: 25px 22px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -55,12 +55,12 @@ body {
 }
 
 .cover {
-	padding: 7px 0 30px 20px;
-	min-height: 220px;
+	padding: 7px 0 30px 25px;
+	min-height: 2px;
 	background-image: url(../images/cover.svg);
 	background-repeat: no-repeat;
-	background-size: 100% auto;
-	background-position: 21px;
+	background-size: contain;
+	background-position: center;
 }
 
 .cover__title {
@@ -71,7 +71,7 @@ body {
 }
 
 .cover__title .accent-span {
-	padding-right: 24px;
+	padding-right: 22px;
 }
 
 .accent-span {
@@ -88,7 +88,7 @@ body {
 }
 
 .intro {
-	padding: 0 20px 14px 20px;
+	padding: 5px 20px 14px 20px;
 }
 
 .intro__heading {
@@ -108,14 +108,17 @@ body {
 .intro__date {
 	white-space: nowrap;
 	color: #CCCCCC;
+
 }
 
-.intro__main-text p {
+.intro__main-text  p {
 	padding-bottom: 24px;
+	line-height: 21.6px;
 }
 
 .reasons {
-	padding: 40px 20px 24px;
+	padding: 40px 20px 40px 20px;
+	height: 1368px;
 }
 
 .content-section__subtitle {
@@ -139,7 +142,9 @@ body {
 
 .content-section__list-item {
 	padding-bottom: 16px;
-	margin-left: 20px;
+	margin-left: 16px;
+	min-height: 130px;
+	line-height: 1.35;
 }
 
 .how-to {
@@ -172,16 +177,19 @@ body {
 .card {
 	padding: 20px;
 	border-radius: 30px;
+
 }
 
 .card_theme_dark {
 	background-color: #343434;
+	line-height: 1.32;
 }
 
 .card_theme_bright {
 	background-color: #FEE42A;
 	color: #131313;
-}
+	line-height: 1.35;
+	}
 
 .card__title {
 	padding-bottom: 8px;
