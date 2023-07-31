@@ -9,8 +9,8 @@ body {
 	font-family: 'Inter', sans-serif;
 	font-size: 16px;
 	line-height: 22x;
-	height: 4160px;
-}
+	
+	}
 
 .content-section {
 	box-sizing:border-box;
@@ -59,8 +59,9 @@ body {
 	min-height: 2px;
 	background-image: url(../images/cover.svg);
 	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
+	background-size: 95% auto;
+	background-position: right center;
+	color: #FFFFFF;
 }
 
 .cover__title {
@@ -95,10 +96,10 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: start;
+	color: #CCCCCC;
 }
 
 .intro__title {
-	color: #CCCCCC;
 	font-size: 16px;
 	line-height: 120%;
 	font-weight: 400;
@@ -111,9 +112,12 @@ body {
 
 }
 
-.intro__main-text  p {
-	padding-bottom: 24px;
+.intro__main-text {
 	line-height: 21.6px;
+}
+
+p:last-child{
+	padding-bottom: 24px;
 }
 
 .reasons {
@@ -163,6 +167,7 @@ body {
 
 .card__author {
 	margin-bottom: 8px;
+	border-radius: 50%;
 }
 
 .card__author-photo {
