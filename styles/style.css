@@ -109,7 +109,6 @@ body {
 .intro__date {
 	white-space: nowrap;
 	color: #CCCCCC;
-
 }
 
 .intro__main-text {
@@ -131,7 +130,6 @@ p:last-child {
 	line-height: 32px;
 	font-weight: 500;
 	padding-bottom: 32px;
-
 }
 
 .content-section__introduction {
@@ -230,5 +228,3 @@ p:last-child {
 	text-decoration: none;
 	font-size: 14px;
 }
-
-
